@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type, ThinkingLevel, Modality } from "@google/genai";
 import { LessonPlan, GrammarGame, ActivityType } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
 // Simple in-memory cache to prevent redundant API calls
 const cache: Record<string, any> = {};
