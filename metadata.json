@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: E-Teaching",
+  "description": "An all-in-one educational platform for Karnataka Grade 6-10 students and teachers. Features interactive Math \u0026 Science simulations, a high-speed Language Lab for English and Kannada grammar with multiple activity types, and a robust AI-powered Lesson Plan generator for educators.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
